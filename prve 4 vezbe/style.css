@@ -1,0 +1,21 @@
+h1 {
+    background-color: navy;
+
+}
+
+p {
+    background-color: darkblue; font
+    font-size: 19px;
+}
+/* CLASS MAKING */
+.plava {
+    background-color: darkcyan; width: 300px;
+    border: 10px red dotted;
+}
+/* pravljenje ID-a */
+#prviID {
+    color: gold;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    
+}

@@ -1,0 +1,27 @@
+/* visina i sirina na osnovu procenata */
+div {
+    background-color: green;
+    width: 50vw;
+    height: 15vh;
+
+
+}
+/* Dodavanje visine i sirine na osnovu vidnog polja */
+/* div {
+    height: 1000vh;
+    width: 70vw;
+} */
+
+h1 {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+}
+h2 {
+    background-color: blue;
+}
+.drugi {
+    background-color: brown;
+    width: 4rem;
+    height: 4rem;
+}

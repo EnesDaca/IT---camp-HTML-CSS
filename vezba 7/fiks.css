@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+.start {
+    padding: 128px 30px;
+    background-color: rgb(223, 41, 41);
+    width: 100%;
+    height: 35vh;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+div {
+    width: 96vw;
+    height: 35vh;
+    display: inline-block;
+}
+.ha1{
+    display: inline-block;
+    color: black;
+    font-size: 36px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 588px;
+    font-size: 20px;
+
+}
+.oba {
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+p {
+    margin-top: 190px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+
+}
+.pb {
+    color: black;
+    font-size: 18px;
+    margin: 10px 0px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 0px;
+}
+li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 8px 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 9px;
+    margin-left: 20px;
+}
+.liste {
+    background-color: rgb(197, 46, 46);
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    box-shadow: black 2px 2px;
+
+}
+.nav {
+    background-color: red;
+    color: white;
+    border: black 1px solid;
+    display: inline-block;
+    width: 95vw;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    right: 10px;
+}
+.main {
+    display: inline-block;
+    width: 400px;
+    height: 900px;
+    position: relative;
+    top: 20px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -250px;
+    right: 250px;
+    float: right;
+}

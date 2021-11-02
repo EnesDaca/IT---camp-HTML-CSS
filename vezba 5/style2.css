@@ -1,0 +1,23 @@
+/* Dodavanje atributa za više klasa odjednom */
+.klasa1, .klasa2, .klasa3 {
+    color: red;
+}
+/* Pravljenje buttona */
+button {
+    background-color: orange;
+    color: white;
+    border-color: none;
+    border: none;
+    padding: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 19px;
+}
+/* Margine sa 2 vrednosti (gore-dole, levo-desno) Margine sa 4 vrednosti (gore,desno,dole,levo)*/
+h1 {
+    margin: 10px 15px;
+    margin: 10px 15px 5px 14px;
+}

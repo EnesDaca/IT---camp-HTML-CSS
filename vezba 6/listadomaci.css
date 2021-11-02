@@ -1,0 +1,11 @@
+div{ 
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.levo {
+    background-color: brown;
+}
+.desno{
+    background-color: coral;
+}

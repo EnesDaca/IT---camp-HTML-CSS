@@ -1,0 +1,43 @@
+div {
+    width: 700px;
+    height: 300px;
+    display: inline-block;
+    border: 1px black solid;
+    position: absolute;
+}
+.prvi {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin: 0px;
+    top: 10px;
+    left 170px;
+    z-index: -1;
+    
+}
+.drugi {
+    position: absolute;
+    top 40px;
+    left: 40px;
+    display: inline-block;
+}
+.treci {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 36px;
+    width: 500px;
+    height: 200px;
+}
+.cetvrti{
+    positon: absolute;
+    display: inline-block;
+    top: 500px;
+    left; 600px;
+    z-index: -2;
+}
+.header {
+    position: relative;
+    height: 400px;
+    width: 800px;
+}

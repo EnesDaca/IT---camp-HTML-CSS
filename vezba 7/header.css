@@ -1,0 +1,21 @@
+.header {
+    position: relative;
+    width: 800px;
+    height: 150px;
+    border: black 1px solid;
+}
+.logo {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border: black 1px solid;
+    margin-left: 10px;
+}
+.topmenu{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 20px;
+    right: 40px;
+    border: black 1px solid;
+}

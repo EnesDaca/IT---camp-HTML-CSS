@@ -1,0 +1,40 @@
+.prva{
+    background-color: rgb(25, 175, 25);
+    width: 60px;
+    padding: 8px;
+    margin: 0px;
+    margin-left: -40px;
+    display: inline-block;
+    color: white;
+}
+div {
+    display: inline-block;
+    width: 500vw;
+    height: 50px;
+    padding-top: -10px;
+}
+.glavna {
+    background-color: rgb(71, 65, 65);
+    width: 500px;
+    color: white;
+
+}
+.treca {
+    margin-left: 280px;
+    display: inline-block;
+    color: white;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+ul {
+    background-color: rgb(44, 42, 42);
+    width: 500px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
