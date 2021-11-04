@@ -1,0 +1,17 @@
+p {
+    color: gray;
+    margin-left: 20px;
+}
+div {
+    padding: 30px;
+    border-left: rgb(194, 187, 187) 2px solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+i {
+    position: relative;
+    right: 39px;
+    color: rgb(136, 38, 202);
+    font-size: 30px;
+}
