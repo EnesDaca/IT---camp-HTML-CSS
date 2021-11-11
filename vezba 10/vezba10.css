@@ -1,0 +1,46 @@
+h2,p {
+    text-align: left;
+}
+.feedback {
+    display: inline-block;
+    margin: auto;
+    height: 500px;
+    float: right;
+}
+.mail {
+    width: 100%;
+    padding: 8px 0px;
+}
+input{
+    width: 100%;
+}
+button{
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 102%;
+    margin-right: 0px;
+}
+label {
+    display: block;
+    padding: 4px 0px;
+}
+form {
+    width: 40%;
+}
+.message {
+    display: inline-block;
+    width: 100%;
+}
+textarea {
+    padding: 5px;
+}
+iframe {
+    width: 70%;
+    display: inline-block;
+}

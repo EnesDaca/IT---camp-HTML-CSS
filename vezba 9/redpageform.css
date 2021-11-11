@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+header {
+    background-color: rgb(223, 41, 41);
+    width: 100%;
+    height: 400px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.ha1{
+    display: inline-block;
+    color: black;
+    font-size: 36px;
+}
+.blackb {
+    background-color: black;
+    color: white;
+    border: none;
+    margin: auto;
+    float: center;
+    width: auto;
+
+}
+.oba {
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.pb {
+    color: black;
+    font-size: 18px;
+    margin: 10px 0px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 0px;
+}
+li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 8px 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 9px;
+    margin-left: 20px;
+}
+.liste {
+    background-color: rgb(197, 46, 46);
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    box-shadow: black 2px 2px;
+
+}
+.nav {
+    background-color: rgb(197, 46, 46);
+    color: white;
+    border: black 1px solid;
+    display: inline-block;
+    width: 95vw;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    right: 10px;
+}
+.main {
+    display: inline-block;
+    width: 400px;
+    height: 900px;
+    position: relative;
+    top: 20px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    float: right;
+}
+.feedback {
+    margin: auto;
+    height: 500px;
+    width: 900px;
+}
+.mail {
+    width: 100%;
+    padding: 8px 0px;
+}
+input{
+    width: 100%;
+}
+button{
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(197, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 102%;
+    margin-right: 0px;
+}
+label {
+    display: block;
+    padding: 4px 0px;
+}
+form {
+    width: 40%;
+}
+.message {
+    display: inline-block;
+    width: 100%;
+}
+textarea {
+    padding: 5px;
+}
+li:hover, button:hover {
+    background-color: brown;
+}
