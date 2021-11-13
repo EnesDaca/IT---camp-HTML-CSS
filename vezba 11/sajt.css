@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-image: url(earth_by_alpha_element_d4tl4ph-fullview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin: auto;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.hh {
+    margin-top: 200px;
+}
+.blueb {
+    display: block;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    margin-top: auto;
+    width: auto;
+}
+.listedesno {
+    float: right;
+    margin-right: 10px;
+}
+.oba {
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 0px;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+    margin: 8px 0px;
+}
+a {
+    text-decoration: none;
+    font-family: Bebas Neue, cursive;
+    color: white;
+    font-size: 20px;
+    padding-left: 9px;
+    margin-left: 20px;
+}
+.liste {
+    background-color: darkslategray;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    color: white;
+    box-shadow: black 2px 2px;
+}
+button{
+    font-size: 15px;
+    display: block;
+    margin-top: auto;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(197, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 102%;
+    margin-right: 0px;
+}
+button:hover {
+    background-color: darkcyan;
+}
+.blueb:hover {
+    background-color: darkslategray;
+    transition: 1s all ease;
+}

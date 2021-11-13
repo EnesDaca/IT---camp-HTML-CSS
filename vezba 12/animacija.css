@@ -1,0 +1,49 @@
+.prvi {
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    animation: mojaAnimacija;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+.drugi {
+    width: 100px;
+    height; 100px;
+
+}
+
+@keyframes mojaAnimacija {
+
+    0% {
+          position: relative;
+          top: 0px;
+          left: 0px;
+          background-color: firebrick;
+
+    }
+
+    25% {
+         position: relative;
+         left: 100px;
+         top: 0px;
+    }
+    50% {
+        position: relative;
+        top: 100px;
+        left: 100px;
+          background-color: forestgreen;
+          border-radius: 50%;
+    }
+    75% {
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    100% {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
