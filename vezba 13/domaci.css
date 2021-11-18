@@ -1,0 +1,50 @@
+.container {
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    width: 380px;
+    height: 200px;
+    border: solid black 1px;
+}
+h3 {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
+}
+i {
+    color: black;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.naslov {
+    text-align: center;
+}
+.dugme {
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 4vh;
+    font-size: 14px;
+    padding-left: 18px;
+    margin: auto;
+    border: none;
+}
