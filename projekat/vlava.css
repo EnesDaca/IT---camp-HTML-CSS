@@ -1,0 +1,238 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .home {
+    width: 100%;
+    height: 80vh;
+    background: url(cityscape.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .home h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .home h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .home h1, h2 {
+    color: white;
+  }
+  .home button {
+    height: 7vh;
+    width: 25%;
+    border: 2px solid rgb(39, 110, 168);
+    border-radius: 5%;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .home button:hover {
+    background-color: darkseagreen;
+    transition: 0.5s;
+  }
+  .about {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .about div {
+    width: 45%;
+    min-height: 40vh;
+  }
+  .about h1 {
+    color: #052c3f;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .about h2 {
+    color: #4d8090;
+  }
+  .about p {
+    color: #444444;
+  }
+  /* /////////////   SERVICES ////////////////// */
+  .services {
+    background-color: rgb(235, 243, 243);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .services div {
+    width: 30%;
+    min-height: 25vh;
+  }
+  .services i {
+    display: flex;
+    float: left;
+    color: #4d8090;
+    border: #4d8090 2px solid;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: transparent;
+    font-size: 30px;
+  }
+  .services h3, p {
+    color: #052c3f;
+    display: flex;
+    margin-bottom: 14px;
+    padding-left: 10px;
+    align-self: auto;
+    flex-wrap: wrap;
+  }
+  .services p {
+    color: #444444;
+  }
+  .services h2{
+    color: #052c3f;
+}
+.naslov {
+  background-color: rgb(235, 243, 243);
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.naslov h1 {
+  color: #052c3f;
+  margin-bottom: 20px;
+}
+/* //////////  NAVIGACIJA ///////////// */
+.navigacija {
+  background-color:  #052c3f;
+  opacity: 0.4;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+.navigacija ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 100px;
+}
+.navigacija li, a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  margin: auto;
+  padding: auto;
+}
+.navigacija a {
+  color: white;
+  padding: 0px 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+/* 3 SLIKE */
+.trislike {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.trislike div {
+  width: 28%;
+  height: 60vh;
+  margin: 0px 10px;
+  text-align: center;
+}
+.trislike img {
+  width: auto;
+  height: 70%;
+}
+.trislike h3, p {
+  color: #052c3f;
+  text-align: center;
+  margin: 5px 5px 10px 5px;
+}
+.trislike button {
+  height: 7vh;
+  width: 40%;
+  border: 2px solid #4d8090;
+  border-radius: 5%;
+  color: #4d8090;
+  background-color: transparent;
+  cursor: pointer;
+}
+.trislike button:hover {
+  background-color: darkseagreen;
+    transition: 0.5s;
+}
+
+/* ////TESTIMONIALS////// */
+.testimonials {
+  width: 100%;
+  height: 70vh;
+  background-image: url(testimonials-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+/* ///////PORTFOLIO//////// */
+
+.naslov-port {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.naslov-port h1 {
+  color: #052c3f;
+  margin-bottom: 20px;
+}
+.liste-port {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.liste-port li, a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px 5px;
+  color: #444444;
+}
+

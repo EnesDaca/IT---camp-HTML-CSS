@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: chocolate;
+    width: 100%;
+}
+ul {
+    width: 25%;
+    height: 10vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 10px;
+}
+li {
+    list-style-type: none;
+    margin: 0px 10px;
+    
+}
+a {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.dropdown:hover {
+    background-color: coral;
+}
+.dropdown {
+    
+}
