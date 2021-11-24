@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 header {
-    background-color: chocolate;
+    background-color: gray;
     width: 100%;
 }
-ul {
+.lajsna {
     width: 25%;
-    height: 10vh; 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -20,16 +19,11 @@ li {
     list-style-type: none;
     margin: 0px 10px;
     
-}
-a {
     background-color: teal;
     color: white;
     font-size: 20px;
     text-decoration: none;
 }
-.dropdown:hover {
-    background-color: coral;
-}
-.dropdown {
+.dropdown:hover, a {
     
 }
