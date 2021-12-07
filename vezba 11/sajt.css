@@ -138,27 +138,7 @@ button:hover {
             left: 0px;
         }
     }
-    /* .mountains {
-        background-image: url(mountains.png);
-        background-size: cover;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-        background-attachment: unset;
-        position: relative;
-        bottom: 0%;
-        left: 0%;
-        width: 100%;
-    }
-    .planine {
-        
-        position: absolute;
-        top: 119%;
-        left: -9%;
-        display: inline-block;
-        margin: auto;
-        overflow: hidden;
-    
-    } */
+  
     .trecasekcija {
         background-image: url(blue-sky-background-images.jpg);
         background-repeat: no-repeat;
